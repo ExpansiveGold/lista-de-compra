@@ -1,14 +1,14 @@
 import Head from "next/head"
 
-export default function Home(){
+export default function Read(){
     return(
         <>
-        <div>
+        <div className="bg-dark h-100">
             <Head>
-                <title>Teste</title>
+                <title>Lista de Compras</title>
             </Head>
             <main>
-                <h1>Titulo</h1>
+                <h1>Mostrar</h1>
             </main>
         </div>
         </>
