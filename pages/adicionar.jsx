@@ -5,7 +5,7 @@ import Create from "../components/create"
 export default function Home(){
     return(
         <>
-        <div class="p-3 mb-2 bg-dark text-white">
+        <div className="p-3 mb-2 bg-dark text-white">
             <Head>
                 <title>Lista de Compras</title>
             </Head>
