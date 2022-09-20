@@ -1,6 +1,6 @@
 import Head from "next/head"
 
-import Create from "../components/create"
+import Create from "../components/Create"
 
 export default function Home(){
     return(

@@ -1,14 +1,17 @@
 import Head from "next/head"
+import { Update } from "../components/Update" 
 
-export default function Home(){
+console.log(typeof Update)
+
+export default function Alterar(){
     return(
         <>
-        <div>
+        <div className="p-3 mb-2 bg-dark text-white">
             <Head>
                 <title>Lista de Compras</title>
             </Head>
-            <main>
-                <h1>Alterar</h1>
+            <main className="container">
+                <Update />
             </main>
         </div>
         </>

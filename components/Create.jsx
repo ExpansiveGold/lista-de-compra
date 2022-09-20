@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 
 //importar as configurações do firebase
@@ -84,7 +83,7 @@ export default function Create(){
           <input
               type="button"
               value="Salvar"
-              className="btn btn-outline-success border border-success form-control"
+              className="btn btn-outline-success form-control"
               onClick={create}
           />
       </>

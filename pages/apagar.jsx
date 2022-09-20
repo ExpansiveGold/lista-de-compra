@@ -1,15 +1,14 @@
 import Head from "next/head"
-import Read from "../components/Read"
 
-export default function Show(){
+export default function Delete(){
     return(
         <>
-        <div className="p-3 mb-2 bg-dark text-white">
+        <div>
             <Head>
                 <title>Lista de Compras</title>
             </Head>
-            <main className="container">
-                <Read />
+            <main>
+                <h1>Apagar</h1>
             </main>
         </div>
         </>
